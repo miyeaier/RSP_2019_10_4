@@ -34,7 +34,6 @@ npm link
 ```
 npm run test
 ```
-
 ## License
 MIT-license
 
@@ -53,9 +52,7 @@ I need to go to  the  RSP website
 As a user  
 In order to play the game  
 I need to choose between Rock, Paper or Scissors  
-
 ```
-
 ```
 As a user  
 If I play paper and the computer plays rock  
