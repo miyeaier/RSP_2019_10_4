@@ -35,7 +35,7 @@ npm link
 npm run test
 ```
 ## License
-MIT-license
+Kaerman-license
 
 ## User Stories
 ```
