@@ -1,6 +1,4 @@
 // console.log (PC_Choice ());
-
-
 // let player_Choice="scissors";
 
 // function PC_Choice() {
@@ -24,9 +22,7 @@
 //         if(computer_choice==="scissors"){
 //     return ("user win");
 //          } else{
-
-
-//           return ("cumputer win")
+      // return ("cumputer win")
 //          }
 // }
 

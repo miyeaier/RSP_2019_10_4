@@ -1,5 +1,5 @@
 function RSP(){
-  this.check = (player_input) => {
+ this.check = (player_input) => {
     if(player_input === "scissors" ){
       return 'pc win';
     }else if (player_input === "rock" ){
@@ -12,9 +12,32 @@ function RSP(){
   }
 }
 
-
-
-
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = RSP;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
