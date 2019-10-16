@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="stylesheet" href = "./style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-   <link rel="stylesheet" href = "./style.css">
-   <title>R.S.P</title>
- </head>  
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>R.S.P</title>
+</head>
 
 
- <body>
-    
-    <div>
-        <h1>R.S.P Game</h1>
-         <p><i class="gamepad icon"></i>:Enter the rock, paper or scissors to play the game<i class="street view icon"></i></p>
-         <input type="text" id="value">
-        <input type="submit" value="Check" id="button"class="ui inverted pink button">
-        <div id="display_answer"></div>
-    </div>
-               <script src="js/RSP.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            let button = document.getElementById('button')
-            let displayDiv = document.getElementById('display_answer')
-            button.addEventListener('click', () =>{
-                let value = document.getElementById('value').value
-                let pc_choice = PC_Choice()
-                let result = Compare(value,pc_choice);
-                displayDiv.innerHTML = result;
-            })
-        })
-    </script>
- </body>
+<body>
+
+  <div>
+    <h1>R.S.P Game</h1>
+    <p><i class="gamepad icon"></i>:Enter the rock, paper or scissors to play the game<i class="street view icon"></i>
+    </p>
+    <input type="text" id="value">
+    <input type="submit" value="Check" id="button" class="ui inverted pink button">
+    <div id="display_answer"></div>
+  </div>
+  <script src="js/RSP.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let button = document.getElementById('button')
+      let displayDiv = document.getElementById('display_answer')
+      button.addEventListener('click', () => {
+        let value = document.getElementById('value').value
+        let pc_choice = PC_Choice()
+        let result = Compare(value, pc_choice);
+        displayDiv.innerHTML = result;
+      })
+    })
+  </script>
+</body>
 
 
 
