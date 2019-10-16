@@ -1,23 +1,23 @@
-require('../spec.helper')
+// require('../spec.helper')
 
-describe("RSP",() =>{
-  let rsp = new RSP({
- })
+// describe("RSP",() =>{
+//   let rsp = new RSP({
+//  })
 
- it('returns Correct your input if no game rules',() =>{
-   expect(rsp.check('')).to.eql("Correct your input")
-  })
- it('returns if player_input eql to paper',() =>{
-   expect(rsp.check('paper')).to.eql("player win") 
- })
- it('returns if player_input eql to rock', () => {
-  expect(rsp.check('rock')).to.eql('Tie')
- })
- it('return if player_input eql to scissors', () => {
-   expect(rsp.check('scissors')).to.eql('pc win')
- })
+//  it('returns Correct your input if no game rules',() =>{
+//    expect(rsp.check('')).to.eql("Correct your input")
+//   })
+//  it('returns if player_input eql to paper',() =>{
+//    expect(rsp.check('paper')).to.eql("player win") 
+//  })
+//  it('returns if player_input eql to rock', () => {
+//   expect(rsp.check('rock')).to.eql('Tie')
+//  })
+//  it('return if player_input eql to scissors', () => {
+//    expect(rsp.check('scissors')).to.eql('pc win')
+//  })
 
-})
+// })
 
 
 
